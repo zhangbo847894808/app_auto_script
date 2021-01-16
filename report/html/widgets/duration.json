@@ -1,0 +1,41 @@
+[ {
+  "uid" : "3670bcad3c63ef81",
+  "name" : "test_002[search_test_002-1234]",
+  "time" : {
+    "start" : 1610549725696,
+    "stop" : 1610549733498,
+    "duration" : 7802
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bd5bc9aeb1e1a4c7",
+  "name" : "test_001",
+  "time" : {
+    "start" : 1610549713480,
+    "stop" : 1610549714009,
+    "duration" : 529
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd9ba49156f71333",
+  "name" : "test_002[search_test_001-你好]",
+  "time" : {
+    "start" : 1610549714013,
+    "stop" : 1610549725592,
+    "duration" : 11579
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ea9e648628b2da30",
+  "name" : "test_002[search_test_003-*&^%]",
+  "time" : {
+    "start" : 1610549733503,
+    "stop" : 1610549744479,
+    "duration" : 10976
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

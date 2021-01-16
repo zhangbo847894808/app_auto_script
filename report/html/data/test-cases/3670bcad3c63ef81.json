@@ -1,0 +1,162 @@
+{
+  "uid" : "3670bcad3c63ef81",
+  "name" : "test_002[search_test_002-1234]",
+  "fullName" : "scripts.test_search_setting.Test_Search_Setting#test_002",
+  "historyId" : "acad424cf0394c18cadc47aeeeffa0b3",
+  "time" : {
+    "start" : 1610549725696,
+    "stop" : 1610549733498,
+    "duration" : 7802
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Search_Setting",
+    "time" : {
+      "start" : 1610549702386,
+      "stop" : 1610549713479,
+      "duration" : 11093
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "搜索框输入",
+      "time" : {
+        "start" : 1610549725696,
+        "stop" : 1610549733498,
+        "duration" : 7802
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "test_num",
+        "value" : "'search_test_002'"
+      }, {
+        "name" : "text_input",
+        "value" : "'1234'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Search_Setting::0",
+    "time" : {
+      "start" : 1610549744483,
+      "stop" : 1610549748049,
+      "duration" : 3566
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_search_setting"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Search_Setting"
+  }, {
+    "name" : "host",
+    "value" : "WIN-96TIJQB71HN"
+  }, {
+    "name" : "thread",
+    "value" : "11096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_search_setting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_num",
+    "value" : "'search_test_002'"
+  }, {
+    "name" : "text_input",
+    "value" : "'1234'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "558ff1a8a192c965",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610549154445,
+        "stop" : 1610549162178,
+        "duration" : 7733
+      }
+    }, {
+      "uid" : "df40df3523b15ef6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610548233248,
+        "stop" : 1610548241378,
+        "duration" : 8130
+      }
+    }, {
+      "uid" : "518d3879825ca894",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.",
+      "time" : {
+        "start" : 1610548143570,
+        "stop" : 1610548143570,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eede399f06ed5c1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610545536164,
+        "stop" : 1610545543729,
+        "duration" : 7565
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "3670bcad3c63ef81.json",
+  "parameterValues" : [ "'search_test_002'", "'1234'" ]
+}

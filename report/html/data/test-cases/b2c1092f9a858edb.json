@@ -1,0 +1,93 @@
+{
+  "uid" : "b2c1092f9a858edb",
+  "name" : "test_002[search_test_003-*&^%]",
+  "fullName" : "scripts.test_search_setting.Test_Search_Setting#test_002",
+  "historyId" : "0040d48c5b19a72f616c3755c81fe201",
+  "time" : {
+    "start" : 1610548241384,
+    "stop" : 1610548251803,
+    "duration" : 10419
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Search_Setting",
+    "time" : {
+      "start" : 1610548210140,
+      "stop" : 1610548221474,
+      "duration" : 11334
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Search_Setting::0",
+    "time" : {
+      "start" : 1610548251806,
+      "stop" : 1610548254444,
+      "duration" : 2638
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_search_setting"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Search_Setting"
+  }, {
+    "name" : "host",
+    "value" : "WIN-96TIJQB71HN"
+  }, {
+    "name" : "thread",
+    "value" : "5700-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_search_setting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_num",
+    "value" : "'search_test_003'"
+  }, {
+    "name" : "text_input",
+    "value" : "'*&^%'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "b2c1092f9a858edb.json",
+  "parameterValues" : [ "'search_test_003'", "'*&^%'" ]
+}

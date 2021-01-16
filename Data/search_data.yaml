@@ -1,0 +1,8 @@
+yaml_data:
+  search_test_001: # 用例编号
+    input_text: "你好" # 测试输入数据
+  search_test_002:
+    input_text: "1234"
+  search_test_003:
+    input_text: "*&^%"
+
